@@ -47,7 +47,7 @@ use vova07\fileapi\Widget;
     </div>
 
 <?php if ($crop === true) : ?>
-    <div id="modal-crop" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div id="modal-crop" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
